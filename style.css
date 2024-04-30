@@ -1,0 +1,84 @@
+{
+        background-color: black;
+        /* Fond noir */
+        color: white;
+        /* Texte blanc */
+        margin: 0;
+        /* Supprimer la marge par défaut */
+        font-family: Arial, sans-serif;
+        /* Police de caractères */
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+
+
+
+        body {
+            background-color: rgb(0, 0, 0);
+            /* Fond noir */
+            color: rgb(255, 255, 255);
+            /* Texte blanc */
+            margin: 0;
+            /* Supprimer la marge par défaut */
+            font-family: Arial, sans-serif;
+            /* Police de caractères */
+        }
+    
+        form {
+            margin: 20px;
+        }
+    
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    
+        input[type="submit"] {
+            background-color: #002fff;
+            color: rgb(255, 255, 255);
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+        input[type="submit"]:hover {
+            background-color: #006eff;
+        }
+
+                /* Style pour la classe active */
+                ul li a.active {
+                    background-color: #333;
+                    /* Couleur de fond */
+                    color: #fff;
+                    /* Couleur du texte */
+                
