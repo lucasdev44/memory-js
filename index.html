@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Game</title>
     <link rel="stylesheet" href="./style.css">
-    <style>
-        body 
-    </style>
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -41,19 +39,13 @@
             // Ouvrir une nouvelle page avec le formulaire d'inscription
             window.open("inscription.html", "_blank");
         });
-    
-
-
-    document.getElementById("openForm1").addEventListener("click", function (event) {
+        document.getElementById("openForm1").addEventListener("click", function (event) {
         event.preventDefault(); // Empêcher le lien de changer l'URL
 
         // Ouvrir une nouvelle page avec le formulaire de connection
         window.open("connecter.html", "_blank");
     });
-
-
-
-    document.getElementById("openForm2").addEventListener("click", function (event) {
+     document.getElementById("openForm2").addEventListener("click", function (event) {
         event.preventDefault(); // Empêcher le lien de changer l'URL
 
         // Ouvrir une nouvelle page avec le profile utilisateur
@@ -66,14 +58,6 @@
         // Ouvrir une nouvelle page avec le jeu
         window.open("memory.html", "_blank");
     });
-
-
-
-
-
-
-
-
     </script>
 
     </body>
