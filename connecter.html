@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
         <li><a href="memory.html">Jouer</a></li>
     </ul>
     <h1>Connexion</h1>
-    <form action="traiter_connexion.php" method="post">
+    <form id="connexionForm">
         <div>
             <label for="username_email">Nom d'utilisateur ou E-mail :</label>
             <input type="text" id="username_email" name="username_email" required>
@@ -28,6 +28,8 @@
         </div>
         <button type="submit">Se connecter</button>
     </form>
+
+    <script src="data.js"></script>
 </body>
 
 </html>
