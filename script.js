@@ -1,3 +1,5 @@
+// CODE JS DU JEU MEMORY
+
 const selectors = {
     boardContainer: document.querySelector('.board-container'),
     board: document.querySelector('.board'),
@@ -161,3 +163,5 @@ const refreshPageOnSpacePress = () => {
 // Appelle la fonction pour écouter l'événement de pression sur la touche espace
 refreshPageOnSpacePress();
   
+
+
