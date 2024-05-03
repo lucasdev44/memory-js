@@ -1,5 +1,3 @@
-// CODE JS DU JEU MEMORY
-
 const selectors = {
     boardContainer: document.querySelector('.board-container'),
     board: document.querySelector('.board'),
@@ -148,19 +146,16 @@ const attachEventListeners = () => {
 generateGame()
 attachEventListeners()
 
-// evenement qui fais que quand on presse barre d'espace ça refresh la page
-
 const refreshPageOnSpacePress = () => {
-    // Écoute l'événement de pression sur la touche espace
+    
     document.addEventListener('keydown', event => {
         if (event.code === 'Space') {
-            // Recharge la page
+            
             window.location.reload();
         }
     });
 }
 
-// Appelle la fonction pour écouter l'événement de pression sur la touche espace
 refreshPageOnSpacePress();
   
 
