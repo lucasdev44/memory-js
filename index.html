@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Game</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#" id="openForm">S'inscrire</a></li> <!-- Ajout d'un ID pour le lien d'inscription -->
-        <li><a href="#" id="openForm1">Se connecter</a></li>
-        <li><a href="#" id="openForm2">Profile</a></li>
-        <li><a href="#" id="openForm3">Jouer</a></li>
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="inscription.html">S'inscrire</a></li>
+        <li><a href="connecter.html">Se connecter</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="memory.html">Jouer</a></li>
     </ul>
 
     <h1>Bienvenue sur le site du jeu Memory </h1>
@@ -31,34 +31,6 @@
         Le jeu garde les 5 meilleurs scores. <br>
         Si vous voulez relancer une partie cliquer sur la barre d'espace.
     </h4>
-
-    <script>
-        document.getElementById("openForm").addEventListener("click", function (event) {
-            event.preventDefault(); // Empêcher le lien de changer l'URL
-
-            // Ouvrir une nouvelle page avec le formulaire d'inscription
-            window.open("inscription.html", "_blank");
-        });
-        document.getElementById("openForm1").addEventListener("click", function (event) {
-        event.preventDefault(); // Empêcher le lien de changer l'URL
-
-        // Ouvrir une nouvelle page avec le formulaire de connection
-        window.open("connecter.html", "_blank");
-    });
-     document.getElementById("openForm2").addEventListener("click", function (event) {
-        event.preventDefault(); // Empêcher le lien de changer l'URL
-
-        // Ouvrir une nouvelle page avec le profile utilisateur
-        window.open("profile.html", "_blank");
-    });
-
-    document.getElementById("openForm3").addEventListener("click", function (event) {
-        event.preventDefault(); // Empêcher le lien de changer l'URL
-
-        // Ouvrir une nouvelle page avec le jeu
-        window.open("memory.html", "_blank");
-    });
-    </script>
 
     </body>
 
